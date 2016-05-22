@@ -13,12 +13,13 @@ github地址：[https://github.com/CameloeAnthony/Perfect_IM_SNS](https://github
 #####6 [融云](http://www.rongcloud.cn/)
 #####7 [Bomb IM](http://docs.bmob.cn/im/faststart/index.html?menukey=fast_start&key=start_im)
 #####8 [OpenSNS](http://www.opensns.cn/)
-......
 
- #二 基于LeanCloud的开源项目
- #####1 [LeanCloud SDK Demos 分类汇总，请点击查看](https://github.com/leancloud/leancloud-demos)
+#二 基于LeanCloud的开源项目
  
- #三 基于环信的即时通讯开源项目
+#####1 [LeanCloud SDK Demos 分类汇总，请点击查看](https://github.com/leancloud/leancloud-demos)
+ 
+#三 基于环信的即时通讯开源项目
+ 
 数据整理自环信官网，网络数据和github。更多信息请参考[环信官方网站](http://www.easemob.com/product/cs?utm_source=baidu-pp)和[ImGeek](http://www.imgeek.org/)
 ####1 高仿微信：基于环信SDK高仿微信（推荐）
 **介绍:**图忆是一款基于位置信息的分享与社交应用。实现了将用户记录的不同类型的事件标刻于地图之上，查看自己的记录足迹，同时用户可以轻松查看附近分享的记事，添加好友聊天，建立兴趣圈子，发现志趣相投的好友，并且用户记事可以分享到公共社区平台，分享乐趣的同时也发现了更多的乐趣，社区推荐策略让用户发现更多有价值的乐趣。
