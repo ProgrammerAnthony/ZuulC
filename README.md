@@ -1,15 +1,26 @@
 博客原地址： [Android即时通讯和sns开源项目汇总](http://www.jianshu.com/p/b2ca52337fe5)
+
 这是一个整理即时通讯（IM）和社交系统（SNS）优秀开源项目的文档，项目上传github欢迎提交更新。
 github地址：[https://github.com/CameloeAnthony/Perfect_IM_SNS](https://github.com/CameloeAnthony/Perfect_IM_SNS)
 
-#一 即时通讯和社交系统平台
+#一 国内即时通讯和社交系统平台
+排名不分先后！
+1 [LeanCloud](https://leancloud.cn/docs/realtime_guide-android.html)
+2 [环信](http://www.easemob.com/product/cs?utm_source=baidu-pp)
+3 [网易云信](http://netease.im/?&from=bdjjqita0327)
+4 [阿里百川 云旺OpenIM](http://im.taobao.com/product_function.html?spm=a1z6j.7801022.0.12.uoMkmF)
+5 [腾讯云](https://www.qcloud.com/product/im.html)
+6 [融云](http://www.rongcloud.cn/)
+7 [Bomb IM](http://docs.bmob.cn/im/faststart/index.html?menukey=fast_start&key=start_im)
+8 [OpenSNS](http://www.opensns.cn/)
 
-1 [环信](http://www.easemob.com/product/cs?utm_source=baidu-pp)(推荐)
-2 [阿里百川 云旺](http://im.taobao.com/product_function.html?spm=a1z6j.7801022.0.12.uoMkmF)
-3 [融云](http://www.rongcloud.cn/)
-4 [OpenSNS](http://www.opensns.cn/)
 ......
- #二 基于环信的即时通讯开源项目
+
+ #二 基于LeanCloud的开源项目
+ 
+ 1 [LeanCloud SDK Demos 分类汇总，请点击查看](https://github.com/leancloud/leancloud-demos)
+ 
+ #三 基于环信的即时通讯开源项目
 数据整理自环信官网，网络数据和github。更多信息请参考[环信官方网站](http://www.easemob.com/product/cs?utm_source=baidu-pp)和[ImGeek](http://www.imgeek.org/)
 ####1 高仿微信：基于环信SDK高仿微信（推荐）
 **介绍:**图忆是一款基于位置信息的分享与社交应用。实现了将用户记录的不同类型的事件标刻于地图之上，查看自己的记录足迹，同时用户可以轻松查看附近分享的记事，添加好友聊天，建立兴趣圈子，发现志趣相投的好友，并且用户记事可以分享到公共社区平台，分享乐趣的同时也发现了更多的乐趣，社区推荐策略让用户发现更多有价值的乐趣。
