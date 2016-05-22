@@ -5,20 +5,18 @@ github地址：[https://github.com/CameloeAnthony/Perfect_IM_SNS](https://github
 
 #一 国内即时通讯和社交系统平台
 排名不分先后！
-1 [LeanCloud](https://leancloud.cn/docs/realtime_guide-android.html)
-2 [环信](http://www.easemob.com/product/cs?utm_source=baidu-pp)
-3 [网易云信](http://netease.im/?&from=bdjjqita0327)
-4 [阿里百川 云旺OpenIM](http://im.taobao.com/product_function.html?spm=a1z6j.7801022.0.12.uoMkmF)
-5 [腾讯云](https://www.qcloud.com/product/im.html)
-6 [融云](http://www.rongcloud.cn/)
-7 [Bomb IM](http://docs.bmob.cn/im/faststart/index.html?menukey=fast_start&key=start_im)
-8 [OpenSNS](http://www.opensns.cn/)
-
+#####1 [LeanCloud](https://leancloud.cn/docs/realtime_guide-android.html)
+#####2 [环信](http://www.easemob.com/product/cs?utm_source=baidu-pp)
+#####3 [网易云信](http://netease.im/?&from=bdjjqita0327)
+#####4 [阿里百川 云旺OpenIM](http://im.taobao.com/product_function.html?spm=a1z6j.7801022.0.12.uoMkmF)
+#####5 [腾讯云](https://www.qcloud.com/product/im.html)
+#####6 [融云](http://www.rongcloud.cn/)
+#####7 [Bomb IM](http://docs.bmob.cn/im/faststart/index.html?menukey=fast_start&key=start_im)
+#####8 [OpenSNS](http://www.opensns.cn/)
 ......
 
  #二 基于LeanCloud的开源项目
- 
- 1 [LeanCloud SDK Demos 分类汇总，请点击查看](https://github.com/leancloud/leancloud-demos)
+ #####1 [LeanCloud SDK Demos 分类汇总，请点击查看](https://github.com/leancloud/leancloud-demos)
  
  #三 基于环信的即时通讯开源项目
 数据整理自环信官网，网络数据和github。更多信息请参考[环信官方网站](http://www.easemob.com/product/cs?utm_source=baidu-pp)和[ImGeek](http://www.imgeek.org/)
