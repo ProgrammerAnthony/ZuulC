@@ -11,7 +11,7 @@ github地址：[https://github.com/CameloeAnthony/Perfect_IM_SNS](https://github
 ......
  #二 基于环信的即时通讯开源项目
 数据整理自环信官网，网络数据和github。更多信息请参考[环信官方网站](http://www.easemob.com/product/cs?utm_source=baidu-pp)和[ImGeek](http://www.imgeek.org/)
-####1 高仿微信：基于环信SDK高仿微信
+####1 高仿微信：基于环信SDK高仿微信（推荐）
 **介绍:**图忆是一款基于位置信息的分享与社交应用。实现了将用户记录的不同类型的事件标刻于地图之上，查看自己的记录足迹，同时用户可以轻松查看附近分享的记事，添加好友聊天，建立兴趣圈子，发现志趣相投的好友，并且用户记事可以分享到公共社区平台，分享乐趣的同时也发现了更多的乐趣，社区推荐策略让用户发现更多有价值的乐趣。
 **功能模块:**
 >消息：订阅号、列表滑动删除、TitleBar弹出菜单单聊，群聊（发送文字，语音，位置，视频，文件，语音电话，视频通话）微信表情、
@@ -25,7 +25,21 @@ github地址：[https://github.com/CameloeAnthony/Perfect_IM_SNS](https://github
 **源码链接:**
 https://github.com/CameloeAnthony/wechat
 
-####2 宅不住
+####2 Baby（推荐）
+**介绍:**
+这是一款使用了Material　Design和MVP的情侣之间使用的app。这两天把代码看了一下。作者的很多思想很赞，推荐。
+**功能模块:**
+>属于两个人的朋友圈，
+两个人聊天，
+登陆注册
+
+**效果展示:**
+
+![](http://upload-images.jianshu.io/upload_images/1833901-84153e8bf12c00c6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+**源码链接:**
+https://github.com/rogerou/Baby
+
+####3 宅不住
 **介绍：**
 宅不住，发现城市精彩运动，认识周边潮人。类似与周末去哪儿 app, 同时加入了社交模块，即时聊天功能。
 **功能模块:**
@@ -38,7 +52,7 @@ https://github.com/CameloeAnthony/wechat
 ![](http://upload-images.jianshu.io/upload_images/1833901-8e8fc954158fa4e8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 **源码链接：**
 [http://pan.baidu.com/s/1sl7oSnN](http://pan.baidu.com/s/1sl7oSnN)
-####3 图忆：基于位置信息的分享与社交应用
+####4 图忆：基于位置信息的分享与社交应用
 **介绍:**图忆是一款基于位置信息的分享与社交应用。实现了将用户记录的不同类型的事件标刻于地图之上，查看自己的记录足迹，同时用户可以轻松查看附近分享的记事，添加好友聊天，建立兴趣圈子，发现志趣相投的好友，并且用户记事可以分享到公共社区平台，分享乐趣的同时也发现了更多的乐趣，社区推荐策略让用户发现更多有价值的乐趣。
 **功能模块:**
 >【记录记忆】你可以记录自己的生活点滴在地图之上，可以公开给别人看，也可以保存为自己的私有记忆。
@@ -51,7 +65,7 @@ https://github.com/CameloeAnthony/wechat
 **效果展示:**
 ![](http://upload-images.jianshu.io/upload_images/1833901-f6ab327e0cff9951.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 **源码链接:** https://github.com/donlan/Tuyi
-####4 咚咚：一款高效团队沟通的移动客户端
+####5 咚咚：一款高效团队沟通的移动客户端
 **介绍:**基于环信平台进行开发，旨在打造的高效团队沟通的移动客户端，供企业内部协作使用、适应移动办公需要，提升企业沟通协同效率，增强企业办公管理效率。（当前仅实现了用户登入登出功能、通讯功能、投票功能。）具体功能说明
 **功能模块:**
 >一、用户登录注册功能
@@ -78,7 +92,7 @@ https://github.com/CameloeAnthony/wechat
 **源码链接:**https://github.com/caisiyi/SYTeamApp
 
 
-####5 美肤GO：专注于个人海外代购及护肤咨询分享的APP
+####6 美肤GO：专注于个人海外代购及护肤咨询分享的APP
 **介绍:**希望给爱美向往美的你一个全方位的秘密基地，也希望给想要做全职代购或者兼职代购甚至只是旅游顺便想代购挣回机票钱的我一个平台，源于这个初衷，美肤GO提供高品质的代购机制和最亲民线下般体验的护肤资讯，只为让你更美丽！ 
 **功能模块:**
 >个人海外代购
@@ -92,7 +106,7 @@ https://github.com/CameloeAnthony/wechat
 https://github.com/Rabbit00/MeifuGO
 
 
-####6 方圆十里：关注方圆十里内的人和事
+####7 方圆十里：关注方圆十里内的人和事
 **介绍:**
 基于IM(环信通信云)+LBS(百度地图SDK+GeoHash距离算法)的社交APP
 **功能模块:**
@@ -120,7 +134,7 @@ https://github.com/Rabbit00/MeifuGO
 https://github.com/huangfangyi/fangyuanshili
 
 
-####7 在哪：基于环信sdk的陌生人交友android版本
+####8 在哪：基于环信sdk的陌生人交友android版本
 **介绍:**图忆是一款基于位置信息的分享与社交应用。实现了将用户记录的不同类型的事件标刻于地图之上，查看自己的记录足迹，同时用户可以轻松查看附近分享的记事，添加好友聊天，建立兴趣圈子，发现志趣相投的好友，并且用户记事可以分享到公共社区平台，分享乐趣的同时也发现了更多的乐趣，社区推荐策略让用户发现更多有价值的乐趣。
 **功能模块:**
 >**基于环信sdk的陌生人交友android版本开源了---在哪（微话聊）** 该项目是改编自[环信即时通讯云的demo](http://www.easemob.com/demo/)改编，新增了一些功能 环信即时通讯云demo包含了一个接近微信的完整的聊天app的所有功能, 包括发文字，表情，图片，语音，位置，群聊，登录，注册，退出登录等。
@@ -132,7 +146,7 @@ https://github.com/huangfangyi/fangyuanshili
 **源码链接:**
 https://github.com/vasth/zaina
 
-####8 店话：基于react native 和 环信的实时通话
+####9 店话：基于react native 和 环信的实时通话
 **介绍:**用“店话”搜索想要找的店铺电话，也可以上传自己的店铺信息和在线的客户免费语音通话，语音通话的流量仅仅需要3-5kb/s啊，还不快快下载！
 **功能模块:**
 >免费语音通话
@@ -143,19 +157,7 @@ https://github.com/vasth/zaina
 https://github.com/vasth/dianhua
 
 
-####9 Baby
-**介绍:**
-这是一款使用了Material　Design和MVP的情侣之间使用的app。试用了一下。效果很不错。
-**功能模块:**
->属于两个人的朋友圈，
-两个人聊天，
-登陆注册
 
-**效果展示:**
-
-![](http://upload-images.jianshu.io/upload_images/1833901-84153e8bf12c00c6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-**源码链接:**
-https://github.com/rogerou/Baby
 
 ####10 “约个球”：作者本人的开源项目，目前正在开发中。后续将会使用环信SDK作为即时通讯支持，目前使用的是阿里百川的云旺。也会不断完善项目架构的搭建。全程博客更新，github项目维护。
 **介绍:**
