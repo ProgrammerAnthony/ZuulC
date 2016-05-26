@@ -22,7 +22,7 @@ github地址：[https://github.com/CameloeAnthony/Perfect_IM_SNS](https://github
  
 数据整理自环信官网，网络数据和github。更多信息请参考[环信官方网站](http://www.easemob.com/product/cs?utm_source=baidu-pp)和[ImGeek](http://www.imgeek.org/)
 ####1 高仿微信：基于环信SDK高仿微信（推荐）
-**介绍:**图忆是一款基于位置信息的分享与社交应用。实现了将用户记录的不同类型的事件标刻于地图之上，查看自己的记录足迹，同时用户可以轻松查看附近分享的记事，添加好友聊天，建立兴趣圈子，发现志趣相投的好友，并且用户记事可以分享到公共社区平台，分享乐趣的同时也发现了更多的乐趣，社区推荐策略让用户发现更多有价值的乐趣。
+**介绍:**大家见过的网络各种高仿微信，但是这个是真的实现了功能的。群聊，朋友圈，单聊......  真正的高仿。
 **功能模块:**
 >消息：订阅号、列表滑动删除、TitleBar弹出菜单单聊，群聊（发送文字，语音，位置，视频，文件，语音电话，视频通话）微信表情、
 通讯录：按字母索引排序、添加手机通讯录好友、
@@ -33,7 +33,8 @@ github地址：[https://github.com/CameloeAnthony/Perfect_IM_SNS](https://github
 
 ![](http://upload-images.jianshu.io/upload_images/1833901-970232044dbbb466.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 **源码链接:**
-https://github.com/CameloeAnthony/wechat
+https://github.com/motianhuo/wechat
+（之前源码链接是我fork的一个链接，请大家直接关注原来的作者的github地址）
 
 ####2 Baby（推荐）
 **介绍:**
