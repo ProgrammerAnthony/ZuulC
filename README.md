@@ -174,4 +174,7 @@ https://github.com/vasth/dianhua
 **源码链接:**
 https://github.com/CameloeAnthony/MVPCommon
 
+#四 其他文章或github
+https://github.com/yigit/dev-summit-architecture-demo
+
 ####！！！！如果你有更好的即时通讯项目和社交app，欢迎提交到github。
