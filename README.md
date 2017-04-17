@@ -3,25 +3,25 @@
 这是一个整理即时通讯（IM）和社交系统（SNS）优秀开源项目的文档，项目上传github欢迎提交更新。
 github地址：[https://github.com/CameloeAnthony/Perfect_IM_SNS](https://github.com/CameloeAnthony/Perfect_IM_SNS)
 
-#一 国内即时通讯和社交系统平台
+# 一 国内即时通讯和社交系统平台
 排名不分先后！
-#####1 [LeanCloud](https://leancloud.cn/docs/realtime_guide-android.html)
-#####2 [环信](http://www.easemob.com/product/cs?utm_source=baidu-pp)
-#####3 [网易云信](http://netease.im/?&from=bdjjqita0327)
-#####4 [阿里百川 云旺OpenIM](http://im.taobao.com/product_function.html?spm=a1z6j.7801022.0.12.uoMkmF)
-#####5 [腾讯云](https://www.qcloud.com/product/im.html)
-#####6 [融云](http://www.rongcloud.cn/)
-#####7 [Bomb IM](http://docs.bmob.cn/im/faststart/index.html?menukey=fast_start&key=start_im)
-#####8 [OpenSNS](http://www.opensns.cn/)
+##### 1 [LeanCloud](https://leancloud.cn/docs/realtime_guide-android.html)
+##### 2 [环信](http://www.easemob.com/product/cs?utm_source=baidu-pp)
+##### 3 [网易云信](http://netease.im/?&from=bdjjqita0327)
+##### 4 [阿里百川 云旺OpenIM](http://im.taobao.com/product_function.html?spm=a1z6j.7801022.0.12.uoMkmF)
+##### 5 [腾讯云](https://www.qcloud.com/product/im.html)
+##### 6 [融云](http://www.rongcloud.cn/)
+##### 7 [Bomb IM](http://docs.bmob.cn/im/faststart/index.html?menukey=fast_start&key=start_im)
+##### 8 [OpenSNS](http://www.opensns.cn/)
 
-#二 基于LeanCloud的开源项目
+# 二 基于LeanCloud的开源项目
  
-#####1 [LeanCloud SDK Demos 分类汇总，请点击查看](https://github.com/leancloud/leancloud-demos)
+##### 1 [LeanCloud SDK Demos 分类汇总，请点击查看](https://github.com/leancloud/leancloud-demos)
  
-#三 基于环信的即时通讯开源项目
+# 三 基于环信的即时通讯开源项目
  
 数据整理自环信官网，网络数据和github。更多信息请参考[环信官方网站](http://www.easemob.com/product/cs?utm_source=baidu-pp)和[ImGeek](http://www.imgeek.org/)
-####1 高仿微信：基于环信SDK高仿微信（推荐）
+#### 1 高仿微信：基于环信SDK高仿微信（推荐）
 **介绍:**大家见过的网络各种高仿微信，但是这个是真的实现了功能的。群聊，朋友圈，单聊......  这才是你该关注的代码。所以我把它放在第一位，推荐。
 
 **功能模块:**
@@ -37,7 +37,7 @@ github地址：[https://github.com/CameloeAnthony/Perfect_IM_SNS](https://github
 https://github.com/motianhuo/wechat
 （之前源码链接是我fork的一个链接，请大家直接关注原来的作者的github地址）
 
-####2 Baby（推荐）
+#### 2 Baby（推荐）
 **介绍:**
 这是一款使用了Material　Design和MVP的情侣之间使用的app。这两天把代码看了一下。作者的很多思想很赞，推荐。
 **功能模块:**
@@ -52,7 +52,7 @@ https://github.com/motianhuo/wechat
 https://github.com/rogerou/Baby
 
 
-####3 图忆：基于位置信息的分享与社交应用
+#### 3 图忆：基于位置信息的分享与社交应用
 **介绍:**图忆是一款基于位置信息的分享与社交应用。实现了将用户记录的不同类型的事件标刻于地图之上，查看自己的记录足迹，同时用户可以轻松查看附近分享的记事，添加好友聊天，建立兴趣圈子，发现志趣相投的好友，并且用户记事可以分享到公共社区平台，分享乐趣的同时也发现了更多的乐趣，社区推荐策略让用户发现更多有价值的乐趣。
 **功能模块:**
 >【记录记忆】你可以记录自己的生活点滴在地图之上，可以公开给别人看，也可以保存为自己的私有记忆。
@@ -65,7 +65,7 @@ https://github.com/rogerou/Baby
 **效果展示:**
 ![](http://upload-images.jianshu.io/upload_images/1833901-f6ab327e0cff9951.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 **源码链接:** https://github.com/donlan/Tuyi
-####4 咚咚：一款高效团队沟通的移动客户端
+#### 4 咚咚：一款高效团队沟通的移动客户端
 **介绍:**基于环信平台进行开发，旨在打造的高效团队沟通的移动客户端，供企业内部协作使用、适应移动办公需要，提升企业沟通协同效率，增强企业办公管理效率。（当前仅实现了用户登入登出功能、通讯功能、投票功能。）具体功能说明
 **功能模块:**
 >一、用户登录注册功能
@@ -92,7 +92,7 @@ https://github.com/rogerou/Baby
 **源码链接:**https://github.com/caisiyi/SYTeamApp
 
 
-####5 美肤GO：专注于个人海外代购及护肤咨询分享的APP
+#### 5 美肤GO：专注于个人海外代购及护肤咨询分享的APP
 **介绍:**希望给爱美向往美的你一个全方位的秘密基地，也希望给想要做全职代购或者兼职代购甚至只是旅游顺便想代购挣回机票钱的我一个平台，源于这个初衷，美肤GO提供高品质的代购机制和最亲民线下般体验的护肤资讯，只为让你更美丽！ 
 **功能模块:**
 >个人海外代购
@@ -106,7 +106,7 @@ https://github.com/rogerou/Baby
 https://github.com/Rabbit00/MeifuGO
 
 
-####6 方圆十里：关注方圆十里内的人和事
+#### 6 方圆十里：关注方圆十里内的人和事
 **介绍:**
 基于IM(环信通信云)+LBS(百度地图SDK+GeoHash距离算法)的社交APP
 **功能模块:**
@@ -134,7 +134,7 @@ https://github.com/Rabbit00/MeifuGO
 https://github.com/huangfangyi/fangyuanshili
 
 
-####7 在哪：基于环信sdk的陌生人交友android版本
+#### 7 在哪：基于环信sdk的陌生人交友android版本
 **介绍:**图忆是一款基于位置信息的分享与社交应用。实现了将用户记录的不同类型的事件标刻于地图之上，查看自己的记录足迹，同时用户可以轻松查看附近分享的记事，添加好友聊天，建立兴趣圈子，发现志趣相投的好友，并且用户记事可以分享到公共社区平台，分享乐趣的同时也发现了更多的乐趣，社区推荐策略让用户发现更多有价值的乐趣。
 **功能模块:**
 >**基于环信sdk的陌生人交友android版本开源了---在哪（微话聊）** 该项目是改编自[环信即时通讯云的demo](http://www.easemob.com/demo/)改编，新增了一些功能 环信即时通讯云demo包含了一个接近微信的完整的聊天app的所有功能, 包括发文字，表情，图片，语音，位置，群聊，登录，注册，退出登录等。
@@ -146,7 +146,7 @@ https://github.com/huangfangyi/fangyuanshili
 **源码链接:**
 https://github.com/vasth/zaina
 
-####8 店话：基于react native 和 环信的实时通话
+#### 8 店话：基于react native 和 环信的实时通话
 **介绍:**用“店话”搜索想要找的店铺电话，也可以上传自己的店铺信息和在线的客户免费语音通话，语音通话的流量仅仅需要3-5kb/s啊，还不快快下载！
 **功能模块:**
 >免费语音通话
@@ -159,7 +159,7 @@ https://github.com/vasth/dianhua
 
 
 
-####9 “约个球”：作者本人的开源项目，目前正在开发中。后续将会使用环信SDK作为即时通讯支持，目前使用的是阿里百川的云旺。也会不断完善项目架构的搭建。全程博客更新，github项目维护。
+#### 9 “约个球”：作者本人的开源项目，目前正在开发中。后续将会使用环信SDK作为即时通讯支持，目前使用的是阿里百川的云旺。也会不断完善项目架构的搭建。全程博客更新，github项目维护。
 **介绍:**
 “约个球”APP是一款基于android系统开发的以球类运动为主题的社交app平台，注册“约个球”，你可以同自己的联系人进行沟通交流。你也可以在这里找到附近喜欢打球的人，填写自己的信息（如：选择自己喜欢的球类运动，打哪个位置，打了几年球之类的）。迅速发现附近各种球类运动场所。更重要的是，在“约个球”你随时都可以知道附近有哪些朋友正在战斗，你可以加入进去，也可以自行组建自己的战队。你也可以发起“约架”，邀请附近联系人队伍来一场精彩的篮球赛、足球赛……为球类运动爱好者提供一个在线交友的平台，为线下的球类运动助力。
 **功能模块:**
@@ -174,7 +174,7 @@ https://github.com/vasth/dianhua
 **源码链接:**
 https://github.com/CameloeAnthony/MVPCommon
 
-#四 其他文章或github
+# 四 其他文章或github
 https://github.com/yigit/dev-summit-architecture-demo
 
-####！！！！如果你有更好的即时通讯项目和社交app，欢迎提交到github。
+#### ！！！！如果你有更好的即时通讯项目和社交app，欢迎提交到github。
