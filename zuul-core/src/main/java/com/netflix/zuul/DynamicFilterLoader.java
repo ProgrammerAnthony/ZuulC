@@ -33,6 +33,9 @@ import javax.inject.Singleton;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * filter加载并放入内存
+ */
 @Singleton
 public final class DynamicFilterLoader implements FilterLoader {
     private static final Logger LOG = LoggerFactory.getLogger(FilterLoader.class);

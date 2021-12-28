@@ -23,7 +23,7 @@ import rx.Observable;
 
 /**
  * BAse interface for ZuulFilters
- *
+ * 过滤器基类
  * @author Mikey Cohen
  *         Date: 10/27/11
  *         Time: 3:03 PM

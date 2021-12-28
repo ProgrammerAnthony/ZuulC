@@ -18,6 +18,9 @@ package com.netflix.config;
 
 import java.util.Set;
 
+/**
+ * Archaius 提供了读取配置实现，之前Eureka中有使用
+ */
 public class DynamicIntegerSetProperty extends DynamicSetProperty<Integer>
 {
     public DynamicIntegerSetProperty(String propName, String defaultValue) {

@@ -34,6 +34,8 @@ import org.slf4j.LoggerFactory;
  * User: michaels
  * Date: 2/24/15
  * Time: 10:54 AM
+ *
+ * http响应信息封装实现
  */
 public class HttpResponseMessageImpl implements HttpResponseMessage
 {

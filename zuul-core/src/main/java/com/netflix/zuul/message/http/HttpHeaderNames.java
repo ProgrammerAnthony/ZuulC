@@ -22,7 +22,7 @@ import com.netflix.zuul.message.HeaderName;
 
 /**
  * A cache of both constants for common HTTP header names, and custom added header names.
- *
+ * http请求头定义
  * Primarily to be used as a performance optimization for avoiding repeatedly doing lower-casing and
  * case-insensitive comparisons of StringS.
  *

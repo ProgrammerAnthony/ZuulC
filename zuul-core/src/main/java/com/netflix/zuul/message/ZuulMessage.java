@@ -25,6 +25,7 @@ import javax.annotation.Nullable;
 
 /**
  * Represents a message that propagates through the Zuul filter chain.
+ * zuul filter传递的DTO
  */
 public interface ZuulMessage extends Cloneable {
 

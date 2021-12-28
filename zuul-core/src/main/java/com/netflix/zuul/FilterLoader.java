@@ -27,6 +27,7 @@ import java.util.SortedSet;
 /**
  * This class is one of the core classes in Zuul. It compiles, loads from a File, and checks if source code changed.
  * It also holds ZuulFilters by filterType.
+ * zuul核心类，加载filter
  */
 public interface FilterLoader {
     /**

@@ -19,6 +19,7 @@ package com.netflix.zuul.filters;
  * User: michaels@netflix.com
  * Date: 5/7/15
  * Time: 10:19 AM
+ * filter错误封装
  */
 public class FilterError implements Cloneable
 {

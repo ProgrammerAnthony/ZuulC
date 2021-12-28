@@ -39,18 +39,17 @@ import java.util.concurrent.atomic.AtomicInteger;
  * By default ZuulFilters are static; they don't carry state. This may be overridden by overriding the isStaticFilter() property to false
  *
  * @author Mikey Cohen
- *         Date: 10/26/11
- *         Time: 4:29 PM
+ * Date: 10/26/11
+ * Time: 4:29 PM
  */
-public abstract class BaseFilter<I extends ZuulMessage, O extends ZuulMessage> implements ZuulFilter<I,O>
-{
+public abstract class BaseFilter<I extends ZuulMessage, O extends ZuulMessage> implements ZuulFilter<I, O> {
     private final String baseName;
     private final AtomicInteger concurrentCount;
     private final Counter concurrencyRejections;
 
     private final CachedDynamicBooleanProperty filterDisabled;
     private final CachedDynamicIntProperty filterConcurrencyLimit;
-
+    //CachedDynamicBooleanProperty从配置读取zuul相关配置
     private static final CachedDynamicBooleanProperty concurrencyProtectEnabled = new CachedDynamicBooleanProperty("zuul.filter.concurrency.protect.enabled", true);
 
     protected BaseFilter() {
@@ -67,8 +66,7 @@ public abstract class BaseFilter<I extends ZuulMessage, O extends ZuulMessage> i
     }
 
     @Override
-    public boolean overrideStopFilterProcessing()
-    {
+    public boolean overrideStopFilterProcessing() {
         return false;
     }
 
@@ -96,20 +94,17 @@ public abstract class BaseFilter<I extends ZuulMessage, O extends ZuulMessage> i
     }
 
     @Override
-    public O getDefaultOutput(I input)
-    {
-        return (O)input;
+    public O getDefaultOutput(I input) {
+        return (O) input;
     }
 
     @Override
-    public FilterSyncType getSyncType()
-    {
+    public FilterSyncType getSyncType() {
         return FilterSyncType.ASYNC;
     }
 
     @Override
-    public String toString()
-    {
+    public String toString() {
         return String.valueOf(filterType()) + ":" + String.valueOf(filterName());
     }
 

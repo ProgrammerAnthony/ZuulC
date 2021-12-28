@@ -22,6 +22,7 @@ import com.netflix.zuul.message.ZuulMessage;
  * User: Mike Smith
  * Date: 5/16/15
  * Time: 1:57 PM
+ * I对应输入，O对应输出
  */
 public abstract class Endpoint<I extends ZuulMessage, O extends ZuulMessage> extends BaseFilter<I, O>
 {

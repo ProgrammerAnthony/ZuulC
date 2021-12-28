@@ -22,13 +22,14 @@ import rx.Observable;
  * User: michaels@netflix.com
  * Date: 5/8/15
  * Time: 2:46 PM
+ *
  */
 public abstract class BaseSyncFilter<I extends ZuulMessage, O extends ZuulMessage> extends BaseFilter<I,O> implements SyncZuulFilter<I, O>
 {
     /**
      * A wrapper implementation of applyAsync() that is intended just to aggregate a non-blocking apply() method
      * in an Observable.
-     *
+     * 异步通过rxjava封装apply事件来实现，观察者订阅当前事件关注异步任务
      * A subclass filter should override this method if doing any IO.
      */
     @Override

@@ -22,6 +22,7 @@ import io.netty.handler.codec.http.Cookie;
  * User: Mike Smith
  * Date: 7/16/15
  * Time: 12:45 AM
+ * http响应信息
  */
 public interface HttpResponseMessage extends HttpResponseInfo
 {

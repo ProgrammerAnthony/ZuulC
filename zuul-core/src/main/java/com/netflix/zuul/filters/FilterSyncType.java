@@ -20,6 +20,7 @@ package com.netflix.zuul.filters;
  * User: Mike Smith
  * Date: 11/13/15
  * Time: 9:13 PM
+ * 同步异步
  */
 public enum FilterSyncType
 {
