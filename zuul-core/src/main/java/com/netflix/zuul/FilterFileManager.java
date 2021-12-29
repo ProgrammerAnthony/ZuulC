@@ -99,6 +99,7 @@ public class FilterFileManager {
         bRunning = false;
     }
 
+    //FilterFileManager到开启了轮询机制，定时的去加载groovy文件夹下的groovy编写的过滤器
     void startPoller() {
         poller = new Thread("GroovyFilterFileManagerPoller") {
             public void run() {
@@ -140,7 +141,7 @@ public class FilterFileManager {
 
     /**
      * Returns a List<File> of all Files from all polled directories
-     *
+     * 获取文件夹下的所有文件
      * @return
      */
     List<File> getFiles() {

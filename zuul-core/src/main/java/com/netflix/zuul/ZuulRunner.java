@@ -37,6 +37,12 @@ import static org.mockito.Mockito.*;
 /**
  * This class initializes servlet requests and responses into the RequestContext and wraps the FilterProcessor calls
  * to preRoute(), route(),  postRoute(), and error() methods
+ * 在zuul中， 整个请求的过程是这样的，首先将请求给zuulservlet处理，
+ * zuulservlet中有一个zuulRunner对象，该对象中初始化了RequestContext：
+ * 作为存储整个请求的一些数据，并被所有的zuulfilter共享。zuulRunner中还有 FilterProcessor，
+ * FilterProcessor作为执行所有的zuulfilter的管理器。FilterProcessor从filterloader 中获取zuulfilter，
+ * 而zuulfilter是被filterFileManager所加载，并支持groovy热加载，采用了轮询的方式热加载。
+ *
  *
  * @author mikey@netflix.com
  * @version 1.0
@@ -80,7 +86,8 @@ public class ZuulRunner {
 
     /**
      * executes "post" filterType  ZuulFilters
-     *
+     * 装饰者模式，{@link ZuulRunner}实际调用的是{@link FilterProcessor#runFilters(String)}遍历调用所有过滤器--->{@link FilterProcessor#processZuulFilter}
+     * --->{@link ZuulFilter#runFilter} ---->{@link IZuulFilter#run()}
      * @throws ZuulException
      */
     public void postRoute() throws ZuulException {

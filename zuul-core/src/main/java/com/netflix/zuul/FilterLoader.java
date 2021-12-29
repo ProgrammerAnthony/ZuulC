@@ -136,7 +136,7 @@ public class FilterLoader {
     /**
      * From a file this will read the ZuulFilter source code, compile it, and add it to the list of current filters
      * a true response means that it was successful.
-     *
+     * {@link DynamicCodeCompiler} 加载对应文件并转化为clazz，通过{@link FilterFactory}添加到{@link FilterRegistry}的对应{@link FilterRegistry#filters}中去
      * @param file
      * @return true if the filter in file successfully read, compiled, verified and added to Zuul
      * @throws IllegalAccessException

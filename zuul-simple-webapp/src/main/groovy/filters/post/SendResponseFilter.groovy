@@ -32,6 +32,9 @@ import java.nio.charset.Charset
 import java.util.zip.GZIPInputStream
 import java.util.zip.ZipException
 
+/**
+ * 添加响应头并且通过{@link HttpServletResponse} 的流写回响应信息
+ */
 class SendResponseFilter extends ZuulFilter {
     private static final Logger LOG = LoggerFactory.getLogger(SendResponseFilter.class);
 
@@ -60,7 +63,9 @@ class SendResponseFilter extends ZuulFilter {
     }
 
     Object run() {
+        //添加响应头
         addResponseHeaders()
+        //写回响应
         writeResponse()
     }
 
@@ -70,15 +75,16 @@ class SendResponseFilter extends ZuulFilter {
         if (context.getResponseBody() == null && context.getResponseDataStream() == null) {
             return
         };
-
+        //获取到context中的HttpServletResponse
         HttpServletResponse servletResponse = context.getResponse()
         servletResponse.setCharacterEncoding("UTF-8")
-
+        //获取HttpServletResponse对应的outStream
         OutputStream outStream = servletResponse.getOutputStream();
         InputStream is = null
         try {
             if (RequestContext.getCurrentContext().responseBody != null) {
                 String body = RequestContext.getCurrentContext().responseBody
+                //通过outStream写出到HttpServletResponse中
                 writeResponse(new ByteArrayInputStream(body.getBytes(Charset.forName("UTF-8"))), outStream)
                 return;
             }
@@ -109,6 +115,7 @@ class SendResponseFilter extends ZuulFilter {
         } finally {
             try {
                 is?.close();
+                //链接记得关闭
                 outStream.flush()
                 outStream.close()
             } catch (IOException e) {
@@ -136,6 +143,7 @@ class SendResponseFilter extends ZuulFilter {
     }
 
     private void addResponseHeaders() {
+        //添加响应头逻辑
         RequestContext context = RequestContext.getCurrentContext();
         HttpServletResponse servletResponse = context.getResponse();
         List<Pair<String, String>> zuulResponseHeaders = context.getZuulResponseHeaders();

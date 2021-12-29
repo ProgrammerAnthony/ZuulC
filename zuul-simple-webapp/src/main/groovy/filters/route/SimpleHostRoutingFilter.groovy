@@ -50,6 +50,11 @@ import javax.net.ssl.SSLContext
 import javax.servlet.http.HttpServletRequest
 import java.util.concurrent.atomic.AtomicReference
 
+/**
+ *创建了一个HttpClient作为请求类，并重构了url,请求到了具体的服务，
+ * 得到的一个CloseableHttpResponse对象，并将CloseableHttpResponse对象的保存到RequestContext对象中。
+ * 并调用了ProxyRequestHelper的setResponse方法，将请求状态码，流等信息保存在RequestContext对象中。
+ */
 class SimpleHostRoutingFilter extends ZuulFilter {
 
     public static final String CONTENT_ENCODING = "Content-Encoding";
